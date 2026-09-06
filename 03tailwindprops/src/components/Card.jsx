@@ -1,0 +1,30 @@
+import React from 'react'
+
+function Card() {
+  return (
+    <>
+    <div class="fullscreen-container">
+  <div class="radio-group-container">
+    <label class="radio-label">
+      <input checked="" type="radio" name="option" class="radio-input" />
+      <span class="radio-custom"></span>
+      <span class="radio-text">Helios Blue</span>
+    </label>
+    <label class="radio-label">
+      <input type="radio" name="option" class="radio-input" />
+      <span class="radio-custom"></span>
+      <span class="radio-text">Cygnus Magenta</span>
+    </label>
+    <label class="radio-label">
+      <input type="radio" name="option" class="radio-input" />
+      <span class="radio-custom"></span>
+      <span class="radio-text">Orion Lime</span>
+    </label>
+  </div>
+</div>
+
+    </>
+  )
+}
+
+export default Card

@@ -9,14 +9,25 @@ function App() {
   let [counter, setCounter]=useState(15)
   // let counter=5
   function addValue(){
-    counter+=1
-    setCounter(counter)
+    // counter+=1
+    // setCounter(counter+1)
+    // setCounter(counter+1)
+    // setCounter(counter+1)
+    // setCounter(counter+1)
+    //if we make it 4 time the also the value will be increased by 1 only 
+    // setCounter(prevCounter() =>prevCounter+1)
+    // setCounter(prevCounter =>prevCounter+1)
+    // setCounter(prevCounter =>prevCounter+1)
+    // setCounter(prevCounter =>prevCounter+1)
+    //this will change the value by 4 at a time 
     
   }
 
   function removeValue(){
     // counter-=1
-    setCounter(counter-1)
+    if(counter>=0){
+      setCounter(counter-1)
+    }
   }
   
 
